@@ -14,10 +14,16 @@ The user can login to access the dashboard, with simple email and password speci
 
 ### Executing program
 
-* How to run the program
-* Step-by-step bullets
+* Getting capital on click of the Country from the list
 ```
-code blocks for commands
+inp.value = this.getElementsByTagName("input")[0].value;
+                  
+let objCapital = data.find((o) => o.country === inp.value);
+
+getCapital = objCapital.capital;
+console.log(getCapital);
+const td = e.target.parentNode.parentNode.parentNode.nodeName;
+document.getElementById("capitalBox").value = getCapital;
 ```
 
 ## Authors
