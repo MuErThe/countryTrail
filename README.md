@@ -12,7 +12,7 @@ The user can login to access the dashboard, with simple email and password speci
 
 * Using Bootstrap, Jquery and anime js.
 
-### Executing program
+### Functionality
 
 * Getting capital on click of the Country from the list
 ```
